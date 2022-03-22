@@ -20,10 +20,17 @@ Bindings that allow you to use **SFML** and other useful C libraries with Pascal
 - <a href="https://freepascal.org" target="_blank">FreePascal</a> 3.2.2 (Win64 target only)
 
 
-### Usage
+## How to use in Delphi/FreePascal
+- Unzip the archive to a desired location.
+- Add `installdir\sources`, folder to Delphi's library path so the SFML binding files can be found for any project or for a specific project add to its search path.
+- Add `installdir\bin`, folder to Windows path so that SFML.dll can be found for any project or place beside project executable.
 - Add `SFML` to your uses section to access all the aforementioned libraries.
-- You link to SFML dynamically by default and will look for the SFML DLL in your application path. You can also call `InitSFML`, before any other routine, with a the path to the DLL location.
-- Define `SFML_STATIC` in `SFML.pas` to statically link to SFML and the DLL will not have to be included in your application distro. InitSFML will have no effect and you can leave it in your sources so that you can switch between static and dynamic linking during development.
+- You link to SFML dynamically by default and will look for the SFML.dll in your application path. You can also call `InitSFML`, before any other routines, with a path to the DLL location.
+- Define `SFML_STATIC` in `SFML.pas` to statically link to SFML and the DLL will not have to be included in your application distro. `InitSFML` will have no effect and you can leave it in your sources so that you can switch between static and dynamic linking during development.
+- You must include **SFML.dll** in your project distribution when using dynamic linking.
+- See the examples in `installdir\examples` folder for more information on usage. Load `SFML Projects.groupproj` to load and run the examples in Delphi. For **FPC**, you can compile a project using **fp64.bat** and run it using **run.bat**. For example `fp64 window` then `run window` from the command-line.
+
+### Minimal Example
 
 ```Pascal
 uses
@@ -63,6 +70,7 @@ begin
   sfRenderWindow_destroy(Window);
 end.
 ```
+
 ### Support
 - <a href="https://github.com/tinyBigGAMES/SFML/issues" target="_blank">Issues</a>
 - <a href="https://github.com/tinyBigGAMES/SFML/discussions" target="_blank">Discussions</a>

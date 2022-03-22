@@ -69,10 +69,12 @@ end.
 - <a href="https://www.sfml-dev.org/" target="_blank">SFML website</a>
 - <a href="https://www.youtube.com/results?search_query=SFML&sp=CAI%253D" target="_blank">SFML on YouTube</a>
 
-<p align="center">
-<img src="media/delphi.png" alt="Delphi">
-</p>
-<h5 align="center">
+## Sponsor
+If this project has been useful to you, please consider sponsoring to help with it's continued development. **Thank You!** :clap:
 
-Made with :heart: in Delphi
-</h5>
+<a href="https://www.buymeacoffee.com/tinybiggames"><img src="https://img.buymeacoffee.com/button-api/?text=Sponsor this project&emoji=&slug=tinybiggames&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff" /></a>
+
+<p align="center">
+ <a href="https://www.embarcadero.com/products/delphi" target="_blank"><img src="media/delphi.png"></a><br/>
+ <b>❤ Made in Delphi</b>
+</p>

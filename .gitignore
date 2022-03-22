@@ -67,3 +67,7 @@ __recovery/
 
 # Boss dependency manager vendor folder https://github.com/HashLoad/boss
 modules/
+
+examples/Win64
+bin/Data.zip
+#!bin/ZipArc.exe

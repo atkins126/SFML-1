@@ -1,0 +1,96 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{17549D55-BF8B-4ABD-99D0-B435564C1CC6}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="ZipArc\ZipArc.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\examples\Window.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\examples\ScaledWindow.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\examples\LetterBoxView.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\examples\Music.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\examples\Video.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="ZipArc">
+        <MSBuild Projects="ZipArc\ZipArc.dproj"/>
+    </Target>
+    <Target Name="ZipArc:Clean">
+        <MSBuild Projects="ZipArc\ZipArc.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ZipArc:Make">
+        <MSBuild Projects="ZipArc\ZipArc.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Window">
+        <MSBuild Projects="..\examples\Window.dproj"/>
+    </Target>
+    <Target Name="Window:Clean">
+        <MSBuild Projects="..\examples\Window.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Window:Make">
+        <MSBuild Projects="..\examples\Window.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="ScaledWindow">
+        <MSBuild Projects="..\examples\ScaledWindow.dproj"/>
+    </Target>
+    <Target Name="ScaledWindow:Clean">
+        <MSBuild Projects="..\examples\ScaledWindow.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ScaledWindow:Make">
+        <MSBuild Projects="..\examples\ScaledWindow.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="LetterBoxView">
+        <MSBuild Projects="..\examples\LetterBoxView.dproj"/>
+    </Target>
+    <Target Name="LetterBoxView:Clean">
+        <MSBuild Projects="..\examples\LetterBoxView.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="LetterBoxView:Make">
+        <MSBuild Projects="..\examples\LetterBoxView.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Music">
+        <MSBuild Projects="..\examples\Music.dproj"/>
+    </Target>
+    <Target Name="Music:Clean">
+        <MSBuild Projects="..\examples\Music.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Music:Make">
+        <MSBuild Projects="..\examples\Music.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Video">
+        <MSBuild Projects="..\examples\Video.dproj"/>
+    </Target>
+    <Target Name="Video:Clean">
+        <MSBuild Projects="..\examples\Video.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Video:Make">
+        <MSBuild Projects="..\examples\Video.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="ZipArc;Window;ScaledWindow;LetterBoxView;Music;Video"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="ZipArc:Clean;Window:Clean;ScaledWindow:Clean;LetterBoxView:Clean;Music:Clean;Video:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="ZipArc:Make;Window:Make;ScaledWindow:Make;LetterBoxView:Make;Music:Make;Video:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

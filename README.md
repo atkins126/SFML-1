@@ -3,10 +3,9 @@
 [![Chat on Discord](https://img.shields.io/discord/754884471324672040.svg?logo=discord)](https://discord.gg/tPWjMwK) [![Twitter Follow](https://img.shields.io/twitter/follow/tinyBigGAMES?style=social)](https://twitter.com/tinyBigGAMES)
 # SFML
 ### Simple Fast Multimedia Layer
-
 Bindings that allow you to use **SFML** and other useful C libraries with Pascal. 
 
-### Included
+## Included
 - **CSFML** (https://github.com/SFML/CSFML)
 - **pl_mpeg** (https://github.com/phoboslab/pl_mpeg)
 - **Nuklear** (https://github.com/Immediate-Mode-UI/Nuklear)
@@ -14,13 +13,12 @@ Bindings that allow you to use **SFML** and other useful C libraries with Pascal
 - **minizip** (https://github.com/madler/zlib)
 - **SDL** (https://github.com/libsdl-org/SDL)
 
-### Minimum Requirements 
+## Minimum Requirements 
 - Windows 10+ (64 bits)
 - <a href="https://www.embarcadero.com/products/delphi/starter" target="_blank">Delphi Community Edition</a> (Win64 target only)
 - <a href="https://freepascal.org" target="_blank">FreePascal</a> 3.2.2 (Win64 target only)
 
-
-### How to use in Delphi/FreePascal
+## How to use in Delphi/FreePascal
 - Unzip the archive to a desired location.
 - Add `installdir\sources`, folder to Delphi's library path so the SFML binding files can be found for any project or for a specific project add to its search path.
 - Add `installdir\bin`, folder to Windows path so that SFML.dll can be found for any project or place beside project executable.
@@ -31,7 +29,6 @@ Bindings that allow you to use **SFML** and other useful C libraries with Pascal
 - See the examples in `installdir\examples` folder for more information on usage. Load `SFML Projects.groupproj` to load and run the examples in Delphi. For **FPC**, you can compile a project using **fp64.bat** and run it using **run.bat**. For example `fp64 window` then `run window` from the command-line.
 
 ### Minimal Example
-
 ```Pascal
 uses
   SysUtils,
@@ -71,7 +68,7 @@ begin
 end.
 ```
 
-### Support
+## Support
 - <a href="https://github.com/tinyBigGAMES/SFML/issues" target="_blank">Issues</a>
 - <a href="https://github.com/tinyBigGAMES/SFML/discussions" target="_blank">Discussions</a>
 - <a href="mailto:support@tinybiggames.com">Contact Us</a>

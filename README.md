@@ -74,6 +74,7 @@ end.
 ### Support
 - <a href="https://github.com/tinyBigGAMES/SFML/issues" target="_blank">Issues</a>
 - <a href="https://github.com/tinyBigGAMES/SFML/discussions" target="_blank">Discussions</a>
+- <a href="mailto:support@tinybiggames.com">Contact Us</a>
 - <a href="https://www.sfml-dev.org/" target="_blank">SFML website</a>
 - <a href="https://www.youtube.com/results?search_query=SFML&sp=CAI%253D" target="_blank">SFML on YouTube</a>
 
@@ -86,3 +87,5 @@ If this project has been useful to you, please consider sponsoring to help with 
  <a href="https://www.embarcadero.com/products/delphi" target="_blank"><img src="media/delphi.png"></a><br/>
  <b>❤ Made in Delphi</b>
 </p>
+
+  

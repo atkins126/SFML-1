@@ -6,8 +6,8 @@
    |____/|_|   |_|  |_|_____|
   Simple Fast Multimedia Layer
 
- Pascal bindings that allow you to use SFML and other useful C libraries
- with Delphi.
+ Bindings that allow you to use SFML and other useful C libraries
+ with Pascal.
 
  Copyright © 2020-2022 tinyBigGAMES™ LLC
  All Rights Reserved.

@@ -6,7 +6,7 @@
    |____/|_|   |_|  |_|_____|
   Simple Fast Multimedia Layer
 
- Pascal bindings that allow you to use SFML and other useful C libraries
+ Bindings that allow you to use SFML and other useful C libraries
  with Pascal.
 
  Included:

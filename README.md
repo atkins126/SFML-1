@@ -20,7 +20,7 @@ Bindings that allow you to use **SFML** and other useful C libraries with Pascal
 - <a href="https://freepascal.org" target="_blank">FreePascal</a> 3.2.2 (Win64 target only)
 
 
-## How to use in Delphi/FreePascal
+### How to use in Delphi/FreePascal
 - Unzip the archive to a desired location.
 - Add `installdir\sources`, folder to Delphi's library path so the SFML binding files can be found for any project or for a specific project add to its search path.
 - Add `installdir\bin`, folder to Windows path so that SFML.dll can be found for any project or place beside project executable.

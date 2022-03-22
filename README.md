@@ -4,7 +4,7 @@
 # SFML
 ### Simple Fast Multimedia Layer
 
-Pascal bindings that allow you to use **SFML** and other useful C libraries with Pascal. 
+Bindings that allow you to use **SFML** and other useful C libraries with Pascal. 
 
 ### Included
 - **CSFML** (https://github.com/SFML/CSFML)
@@ -27,7 +27,7 @@ Pascal bindings that allow you to use **SFML** and other useful C libraries with
 
 ```Pascal
 uses
-  System.SysUtils,
+  SysUtils,
   SFML;
 
 var

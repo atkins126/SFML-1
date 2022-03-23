@@ -10,25 +10,25 @@
  with Pascal.
 
  Included:
-   - CSFML (https://github.com/SFML/CSFML)
-   - pl_mpeg (https://github.com/phoboslab/pl_mpeg)
-   - Nuklear (https://github.com/Immediate-Mode-UI/Nuklear)
-   - physfs (https://github.com/icculus/physfs)
-   - minizip (https://github.com/madler/zlib)
-   - SDL (https://github.com/libsdl-org/SDL)
+   • CSFML (https://github.com/SFML/CSFML)
+   • pl_mpeg (https://github.com/phoboslab/pl_mpeg)
+   • Nuklear (https://github.com/Immediate-Mode-UI/Nuklear)
+   • physfs (https://github.com/icculus/physfs)
+   • minizip (https://github.com/madler/zlib)
+   • SDL (https://github.com/libsdl-org/SDL)
 
  Minimum Requirements:
-   - Windows 10+ (64 bits)
-   - Delphi Community Edition (Win64 target only)
-   - FreePascal 3.2.2 (Win64 target only)
+   • Windows 10+ (64 bits)
+   • Delphi Community Edition (Win64 target only)
+   • FreePascal 3.2.2 (Win64 target only)
 
  Usage:
-   - Add SFML to your uses section to access all the aforementioned
+   • Add SFML to your uses section to access all the aforementioned
      libraries.
-   - You link to SFML dynamically by default and will look for the SFML
+   • You link to SFML dynamically by default and will look for the SFML
      DLL in your application path. You can also call InitSFML, before any
      other routine, with a the path to the DLL location.
-   - Define SFML_STATIC in SFML.pas to statically link to SFML and the DLL
+   • Define SFML_STATIC in SFML.pas to statically link to SFML and the DLL
      will not have to be included in your application distro. InitSFML will
      have no effect and you can leave it in your sources so that you can
      switch between static and dynamic linking during development.

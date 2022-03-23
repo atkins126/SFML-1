@@ -71,3 +71,4 @@ modules/
 examples/Win64
 bin/Data.zip
 #!bin/ZipArc.exe
+!bin/*.dll
